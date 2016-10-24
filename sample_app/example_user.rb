@@ -11,6 +11,10 @@ class User
     "#{@name_first} #{@name_last}"
   end
 
+  def alphabetical_name
+    "#{@name_last}, #{@name_first}"
+  end
+
   def formatted_email
     puts full_name + " <#{@email}>"
   end
